@@ -1,11 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/app/landing-page",
       "has": [
         {
-          "type": "path",
-          "value": "/app/landing-page"
+          "type": "host",
+          "value": "sub.harryduong.cloud"
         }
       ],
       "destination": "sub.harryduong.cloud"
