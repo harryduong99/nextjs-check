@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "sub.harryduong.cloud"
+        }
+      ],
+      "destination": "/app/:path*"
+    }
+  ]
+}
