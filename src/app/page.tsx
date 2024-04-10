@@ -2,6 +2,7 @@
 
 import { getCurrentDate } from "@/server/utils";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const date = getCurrentDate();
@@ -18,9 +19,8 @@ export default function Home() {
 
   return (
     <>
-    <h4>Date: {date}</h4>
-    
-    <button onClick={ping}>Ping</button>
+      <h3>Test</h3>
+      <Link href={"https://harryduong.cloud"}>Home</Link>
     </>
   );
 }
