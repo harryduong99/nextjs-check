@@ -4,11 +4,11 @@
       "source": "/:path*",
       "has": [
         {
-          "type": "host",
-          "value": "sub.harryduong.cloud"
+          "type": "path",
+          "value": "/app/landing-page"
         }
       ],
-      "destination": "/app/:path*"
+      "destination": "sub.harryduong.cloud"
     }
   ]
 }
