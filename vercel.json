@@ -1,14 +1,14 @@
 {
   "rewrites": [
     {
-      "source": "/app/landing-page",
+      "source": "sub.harryduong.cloud",
       "has": [
         {
           "type": "host",
           "value": "sub.harryduong.cloud"
         }
       ],
-      "destination": "sub.harryduong.cloud"
+      "destination": "/app/landing-page"
     }
   ]
 }
